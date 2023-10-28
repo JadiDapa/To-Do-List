@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    to right bottom,
+    rgb(31, 36, 45),
+    rgb(51, 59, 73)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 0 90vh;
+}
+
+.Completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
